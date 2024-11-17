@@ -18,8 +18,8 @@ html{
     overflow-x: hidden;
 }
 body{
-    background: var(background-color);
-    color: var(text-emphasis-color);
+    background:#d5fdf9;
+    color: #000;
 }
 
 section{
@@ -234,7 +234,7 @@ span{
 
 .services-container .services-box{
     flex: 1 1 30rem;
-    background: #d5fdf9;
+    background: #007f73;
     padding: 6rem 2rem 6rem;
     border-radius: 2rem;
     text-align: center;
@@ -243,13 +243,13 @@ span{
 }
 
 .services-container .services-box:hover{
-    border-color: #007f73;
+    border-color: #18c6b4;
     transform: scale(1.02);
 }
 
 .services-box i{
     font-size: 7rem;
-    color: #007f73;
+    color: #18c6b4;
 }
 
 .services-box h3{
