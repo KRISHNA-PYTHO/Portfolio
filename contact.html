@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/68ea00547e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">KRISHNA</a>
+
+        <i class="fa-solid fa-bars" id="menu"></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <h2><span>Contact Me</span></h2>
+                <p>If you have any questions or want to get in touch, feel free to send me a message!</p>
+                
+                <form action="submit_form.php" method="POST" class="contact-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+        
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+        
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2024 Krishna. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100032949174242" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="http://www.linkedin.com/in/krishna-maurya-30316b279"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mr.krishna_maurya_12?igsh=Y2tzdXJjc3JnNzc5"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://github.com/krishna-pytho"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/qr/KOZIY2VCQQYEB1"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p>Made with ❤️ by Krishna</p>
+            </div>
+        </footer>
+    </div>
+       
+</body>
+</html>
