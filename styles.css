@@ -169,7 +169,7 @@ span{
 }
 
 .btn:hover{
-    box-shadow: 0 0 1.6rem #007f73;
+    box-shadow: 0 0 1.6rem #18c6b4;
 }
 
 .about{
@@ -485,7 +485,21 @@ span{
         margin: 0 10px;
     }
 }
-
+.btn3 {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #d5fdf9;
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+.btn3:hover{
+    box-shadow: 0 0 1.6rem #18c6b4;
+}
   
 
 
