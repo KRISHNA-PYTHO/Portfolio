@@ -501,5 +501,38 @@ span{
     box-shadow: 0 0 1.6rem #18c6b4;
 }
   
+@media(max-width:1200px){
+    .header{
+        Padding: 2rem 3%;
+    }
+    section{
+        padding :10rem 3%;
+    }
+    .services{
+        padding: 7rem;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 16px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
 
 
