@@ -1,0 +1,41 @@
+<form class="form" id="contactForm" onsubmit="sendEmail(); return false;">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="form-group">
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <input type="text" id="first_name" placeholder="First Name" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="form-group">
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <input type="text" id="last_name" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="form-group">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <input type="email" id="email" placeholder="Your E-mail" required>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="form-group">
+                <div class="icon"><i class="fa fa-tag"></i></div>
+                <input type="text" id="subject" placeholder="Type Subjects" required>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group textarea">
+                <div class="icon"><i class="fa fa-pencil"></i></div>
+                <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group button">
+                <button type="submit" class="bizwheel-btn theme-2">Send Now</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script src="active.js"></script>
